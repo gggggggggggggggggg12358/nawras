@@ -3,7 +3,7 @@
 // const logInBtn = document.getElementById("logIn");
 // // window.onload=localStorage.setItem("userName","Nawras")
 // const enter = function() {
-//     if (userInput.value === "Nawras" || passInput.value === 161199) {
+//     if (userInput.value === "Nawras" && passInput.value === 161199) {
 //         location.href = "../happy.html"
 //     } else {
 //         window.alert("You are Not Nawras")
