@@ -32,13 +32,9 @@ signUpBtn2.addEventListener('click', () => {
 });
 const error = function (){
      if(userInput.value!=="nawras" ){
-        console.log("ali")
         window.alert("اااسف الباسوورد بس مع حبيبتي وما  بفوت غيرها")
         window.location.reload()
-
  }else{
-
-    console.log("ahmad")
     document.getElementById("aaa").setAttribute("target","_blank");
     window.location.href="https://www.youtube.com/watch?v=0LHmevWVvpc";
 }
