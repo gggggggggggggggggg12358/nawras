@@ -33,7 +33,7 @@ signUpBtn2.addEventListener('click', () => {
 const error = function (){
      if(userInput.value!=="nawras"|| passInput.value.toString()!=="161199" ){
         window.alert("اااسف الباسوورد بس مع حبيبتي وما  بفوت غيرها")
-        window.location.reload()
+        window.location.href="#";
  }else{
     window.location.href="https://www.youtube.com/watch?v=0LHmevWVvpc";
 }
