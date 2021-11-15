@@ -31,7 +31,7 @@ signUpBtn2.addEventListener('click', () => {
     window.alert("اااسف الباسوورد بس مع حبيبتي وما بقدر اسجل غيرها")
 });
 const error = function (){
-     if(userInput.value!=="nawras" || passInput.value!==161199){
+     if(userInput.value!=="nawras" ){
         console.log("ali")
         window.alert("اااسف الباسوورد بس مع حبيبتي وما  بفوت غيرها")
         window.location.reload()
