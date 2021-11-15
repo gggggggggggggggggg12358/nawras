@@ -31,16 +31,15 @@ signUpBtn2.addEventListener('click', () => {
     window.alert("اااسف الباسوورد بس مع حبيبتي وما بقدر اسجل غيرها")
 });
 const error = function (){
-     if(userInput.value!=="nawras"|| passInput.value!==161199 ){
+     if(userInput.value!=="nawras"|| passInput.value.toString()!=="161199" ){
         window.alert("اااسف الباسوورد بس مع حبيبتي وما  بفوت غيرها")
         window.location.reload()
  }else{
-    document.getElementById("aaa").setAttribute("target","_blank");
     window.location.href="https://www.youtube.com/watch?v=0LHmevWVvpc";
 }
 }
    
-document.getElementById("aaa").addEventListener('click', error)
+signInBtn2.addEventListener('click', error)
 
 
  
