@@ -35,7 +35,8 @@ const error = function (){
         window.alert("اااسف الباسوورد بس مع حبيبتي وما  بفوت غيرها")
         window.location.href="#";
  }else{
-    window.location.href="https://www.youtube.com/watch?v=0LHmevWVvpc";
+//     window.location.href="https://www.youtube.com/watch?v=0LHmevWVvpc";
+    window.open("https://www.youtube.com/watch?v=0LHmevWVvpc");
 }
 }
    
