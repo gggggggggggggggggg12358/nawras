@@ -39,7 +39,7 @@ const error = function (){
 }
 }
    
-document.getElementById("aaa").addEventListener('click', error)
+signInBtn2.onclick = error;
 
 
  
